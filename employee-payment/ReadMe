@@ -1,0 +1,73 @@
+# ☕ Estudos de Java
+
+Repositório de exercícios desenvolvidos durante meus estudos de Java, com foco em **Programação Orientada a Objetos (POO)**.
+
+---
+
+## 📂 Exercícios
+
+### 💼 Sistema de Pagamento de Funcionários
+> `br.com.cassio340`
+
+Aplicação de console que gerencia o pagamento de funcionários próprios e terceirizados.
+
+O usuário cadastra funcionários informando nome, horas trabalhadas e valor por hora. Para funcionários terceirizados, há uma despesa adicional. Ao encerrar, o programa exibe todos os funcionários e seus respectivos pagamentos calculados.
+
+**Conceitos de POO aplicados:**
+
+| Conceito | Como foi aplicado |
+|---|---|
+| **Herança** | `OutsourcedEmployee` herda de `Employee` |
+| **Polimorfismo** | Lista de `Employee` armazena os dois tipos; o método `payment()` se comporta diferente para cada um |
+| **Encapsulamento** | Atributos privados acessados via getters/setters |
+
+**Estrutura de arquivos:**
+```
+src/
+└── br/com/cassio340/
+    ├── Main.java
+    └── models/
+        ├── Employee.java
+        └── OutsourcedEmployee.java
+```
+
+---
+
+## 🛠️ Tecnologias
+
+- Java 21 (LTS)
+- Sem frameworks externos
+
+---
+
+## 🚀 Como executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/cassio340/java-studies.git
+   ```
+2. Abra na sua IDE.
+3. Execute a classe `Main.java`.
+
+---
+
+## 📈 Progresso nos estudos
+
+- [x] Herança
+- [x] Polimorfismo
+- [x] Encapsulamento
+- [ ] Classes abstratas e interfaces
+- [ ] Coleções e Generics
+- [ ] Tratamento de exceções
+
+---
+
+## 📖 Referências
+
+- [Curso Java Completo — Nelio Alves (Udemy)](https://www.udemy.com/course/java-curso-completo/)
+- [Oracle Java Tutorials](https://docs.oracle.com/javase/tutorial/)
+- [Documentação oficial do Java](https://docs.oracle.com/en/java/)
+
+---
+
+> Repositório em construção — novos exercícios serão adicionados conforme o avanço nos estudos.
